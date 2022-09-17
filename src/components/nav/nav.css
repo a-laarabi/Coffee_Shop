@@ -1,0 +1,48 @@
+.headerNav {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.logoLink img {
+  height: 100px;
+}
+
+.headerUlNav {
+  display: flex;
+  gap: 10px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.headerUlNav li {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.headerUlNav li a {
+  color: #fff;
+}
+
+.payement {
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+.payement li a {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .headerNav {
+    flex-direction: column;
+  }
+
+  .headerUlNav,
+  .payement {
+    display: none;
+  }
+}

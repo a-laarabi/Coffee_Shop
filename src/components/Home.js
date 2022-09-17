@@ -1,14 +1,11 @@
-import Header from "./header/Header"
-const Home = () => {
-  return (
-    <>
-      <Header />
-      <div id="About"/>
-      <div id="products"/>
-      <div id="review"/>
-      <div id="contact"/>
-    </>
-  )
-}
+import Header from './header/Header';
+import Products from './products/Products';
+
+const Home = () => (
+  <>
+    <Header />
+    <Products />
+  </>
+);
 
 export default Home;
