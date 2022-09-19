@@ -1,16 +1,15 @@
 import React from 'react';
-import img from '../../assets/Cafe-Espresso.png';
+import PropTypes from 'prop-types';
 
 const Product = (props) => {
   const {
-    id, name, price, description,
+    id, name, price, description, picture,
   } = props;
 
   return (
     <div className="product">
       <div className={id % 2 ? 'left' : 'right'}>
-        <img src={img} alt={name} />
-        {/* <img src={"../../assets/"+picture} alt={name} /> */}
+        <img src={picture} alt={name} />
       </div>
       <div className={`description ${!(id % 2) ? 'left' : 'right'}`}>
         <h2>{name}</h2>
@@ -22,3 +21,11 @@ const Product = (props) => {
 };
 
 export default Product;
+
+Product.propTypes = {
+  id: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  picture: PropTypes.string.isRequired,
+};
