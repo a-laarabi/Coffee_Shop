@@ -1,15 +1,14 @@
 .products {
-  top: 70%;
   padding-top: 30px;
-  position: absolute;
   background-color: #000;
-  width: 100%;
+
+  /* width: 100%; */
 }
 
 .products .product {
   background: #fff;
   width: 70%;
-  min-height: 200px;
+  min-height: 300px;
   margin: 20px auto;
   border: 2px solid black;
   border-radius: 50px;

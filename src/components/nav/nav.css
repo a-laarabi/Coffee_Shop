@@ -23,6 +23,19 @@
 
 .headerUlNav li a {
   color: #fff;
+  font-weight: 300;
+  transition: 1s;
+}
+
+.payement li a {
+  color: #fff;
+}
+
+.headerUlNav li a:hover {
+  color: #fff;
+  font-weight: 500;
+  margin: 20px;
+  border-bottom: 2px solid #fff;
 }
 
 .payement {
@@ -30,10 +43,6 @@
   margin-left: auto;
   gap: 20px;
   font-size: 1.5rem;
-}
-
-.payement li a {
-  color: #fff;
 }
 
 @media (max-width: 768px) {

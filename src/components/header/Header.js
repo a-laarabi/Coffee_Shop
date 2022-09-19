@@ -7,7 +7,6 @@ import './header.css';
 const Header = () => (
   <header>
     <Nav />
-    <div className="back" />
     <video src={videoLink} muted loop autoPlay />
     <h1>FRESH COFFEE</h1>
     <NavLink to="/" className="getLink">Get it Now</NavLink>
