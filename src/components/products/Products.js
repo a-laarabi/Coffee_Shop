@@ -3,6 +3,8 @@ import Product from './Product';
 import './products.css';
 import Espresso from '../../assets/Cafe-Espresso.png';
 import IcedCappuccino from '../../assets/Iced-Cappuccino.png';
+import Cappuccino from '../../assets/Cappuccino.png';
+import PumpkinSpiceLatte from '../../assets/PumpkinSpiceLatte.png';
 
 const Products = () => {
   const productObj = [
@@ -15,7 +17,7 @@ const Products = () => {
     {
       name: 'Cappuccino',
       price: '10.99 $',
-      picture: IcedCappuccino,
+      picture: Cappuccino,
       description: 'Dark, rich espresso lies in wait under a smoothed and stretched layer of thick milk foam. An alchemy of barista artistry and craft.',
     },
     {
@@ -27,7 +29,7 @@ const Products = () => {
     {
       name: 'Pumpkin Spice Latte',
       price: '10.99 $',
-      picture: IcedCappuccino,
+      picture: PumpkinSpiceLatte,
       description: 'Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg and clove. Enjoy it topped with whipped cream and real pumpkin-pie spices.',
     },
   ];
