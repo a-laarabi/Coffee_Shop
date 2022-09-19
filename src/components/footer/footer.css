@@ -1,5 +1,5 @@
 footer {
-  background-color: #2D2424;
+  background-color: #2d2424;
   padding: 30px;
   text-align: center;
 }
@@ -7,7 +7,6 @@ footer {
 .socialMedia {
   display: flex;
   justify-content: center;
-  
   gap: 30px;
   margin-top: 10px;
 }
@@ -23,10 +22,13 @@ footer {
 }
 
 .socialMedia li a {
-  color: #413F42;
+  color: #413f42;
   font-size: 1.2rem;
   transition: 0.5s;
-  
+}
+
+footer .headerUlNav li a {
+  color: #000;
 }
 
 .socialMedia li a:hover {
@@ -38,16 +40,12 @@ footer .headerUlNav {
   margin-top: 30px;
 }
 
-footer .headerUlNav li a {
-  color: #000;
-}
-
 .rights {
   margin-top: 30px;
 }
 
 .creator {
-  color: #E0C097;
+  color: #e0c097;
   font-family: 'Great Vibes', cursive;
   font-size: 2rem;
 }
