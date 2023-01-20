@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Coffee_Shop/static/css/main.e82b0ff7.css",
+    "main.js": "/Coffee_Shop/static/js/main.5f217f96.js",
+    "static/media/headerBackground.mp4": "/Coffee_Shop/static/media/headerBackground.9eaacbb6d87702f71ceb.mp4",
+    "static/media/Cappuccino.png": "/Coffee_Shop/static/media/Cappuccino.72bee1a869003c47cf85.png",
+    "static/media/Cafe-Espresso.png": "/Coffee_Shop/static/media/Cafe-Espresso.2bffd090cee6c8ac7d5b.png",
+    "static/media/Iced-Cappuccino.png": "/Coffee_Shop/static/media/Iced-Cappuccino.c365a3ad6ed4de871b92.png",
+    "static/media/PumpkinSpiceLatte.png": "/Coffee_Shop/static/media/PumpkinSpiceLatte.5952f0c4277077fd2fd7.png",
+    "static/media/coffee-shop-logo-D92C9F5E83-seeklogo.com.png": "/Coffee_Shop/static/media/coffee-shop-logo-D92C9F5E83-seeklogo.com.6e49a06bd78bbb23c7b8.png",
+    "index.html": "/Coffee_Shop/index.html",
+    "main.e82b0ff7.css.map": "/Coffee_Shop/static/css/main.e82b0ff7.css.map",
+    "main.5f217f96.js.map": "/Coffee_Shop/static/js/main.5f217f96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e82b0ff7.css",
+    "static/js/main.5f217f96.js"
+  ]
+}
